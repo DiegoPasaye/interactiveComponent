@@ -1,0 +1,120 @@
+html{
+    background-color: rgb(20,21,25);
+}
+
+
+.container{
+    width: 25%;
+    margin-left: 37.5%;
+    background: radial-gradient(circle, rgb(34,41,50), rgb(30,37,47));
+    border-radius: 5%;
+    margin-top: 15%;
+
+    color: white;
+
+}
+
+.container img{
+    background-color: rgb(34,41,50);
+    border-radius: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.container h1{
+    margin-left: 5%;
+}
+
+.container p{
+    width: 90%;
+    margin-left: 5%;
+    color: gray;
+}
+
+.stairs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.stairs button{
+    background-color: rgb(38,47,56);
+    border: rgb(38,47,56);
+    width: 60%;
+    margin-left: 25%;
+    border-radius: 100%;
+    color: rgb(91,99,108);
+    font-size: 20px;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.stairs button:hover{
+    background-color: gray;
+}
+
+.submit{
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 15px;
+    border-radius: 100px;
+    border: none;
+    margin-bottom: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    color: white;
+    background-color: rgb(252,118,19);
+}
+.submit:hover{
+    background-color: white;
+}
+
+.ocultar{
+    display: none;
+}
+
+
+
+
+
+
+.thankyoucontainer{
+    color: white;
+    width: 25%;
+    margin-left: 37.5%;
+    background: radial-gradient(circle, rgb(34,41,50), rgb(30,37,47));
+    border-radius: 10%;
+    margin-top: 10%;
+}
+
+.thankyoucontainer img{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.calificacion{
+    text-align: center;
+    color: rgb(252,118,20);
+    background-color: gray;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.thankyoucontainer h1{
+    text-align: center;
+}
+.agradecimiento{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 12.5px;
+    text-align: center;
+    padding-bottom: 10%;
+    color: gray;
+}
+
+
+
+.mostrar{
+    display: block;
+}
